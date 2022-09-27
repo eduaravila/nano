@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                          
+    "module": "ESNext",
+    "moduleResolution": "node",                     
+    "noEmitOnError": true,
+    "lib": ["es2017", "DOM","ScriptHost"],                            
+    "strict": true,  
+    "esModuleInterop": false,
+    "jsx": "preserve",
+    "baseUrl": "./src",         
+    "rootDir": "./",
+    "paths": {
+      "@/*":["./*"]
+    }
+  }
+  ,
+  "include": ["src/**/*"],
+}
